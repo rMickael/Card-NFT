@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    height: 90vh;
+}
+
+main {
+    background-color: hsl(217, 54%, 11%);
+    width: 300px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.nftCard {
+    overflow: hidden;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 90vh;
+    border-radius: 10px;
+    
+}
+.imgContent {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+
+
+    .nftImg {
+        width: 270px;
+        border-radius: 5px;
+       
+    }
+}
+
+.textContent {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+
+    h3 {
+        font-weight: 600;
+    }
+    p {
+        color:  hsl(215, 51%, 70%);
+    }
+ 
+    
+    .descContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        #ethcolor {
+            color: hsl(178, 100%, 50%);
+        }
+
+        p {
+            display: flex;
+            gap: 5px;
+
+            
+        }        
+    }
+
+}
+
+.footerCard {
+    font-family:'Outfit', sans-serif;
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    color: white;
+    align-items: center;
+    height: 10vh;
+    
+    
+    
+
+    .descFooter {
+        display: flex;
+        gap: 16px;   
+        align-items: center; 
+        margin-bottom: -30px;
+        font-size: 15px;
+
+        p {
+            margin-bottom: 1px;
+        }
+
+        .p-colorFooter{
+            color: hsl(215, 51%, 70%);
+        }
+
+        .footerAvatar {
+            width: 40px ; 
+        }
+    }
+    
+    
+}
+
+
+
+
+
+@media screen and (min-width: 390px) {
+
+    body {
+        
+        height: 100vh;
+    }
+
+    main {
+        height: 100vh;
+    }
+    
+
+    .nftCard {
+        overflow: hidden;
+        background-color: hsl(216, 50%, 16%);
+        width: 300px;
+        height: 73vh;
+        border-radius: 10px;
+        
+    }
+    
+
+    .imgContent {
+
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px;
+    
+    
+        .nftImg {
+            width: 350px;
+            border-radius: 5px;
+           
+        }
+    }
+
+    .footerCard {
+       height: 10vh;
+
+        .descFooter {
+            display: flex;
+            gap: 16px;   
+            align-items: center; 
+            margin-bottom: 10px;
+            font-size: 15px;
+    
+        
+        }
+        
+        
+    }
+    
+}
+
+@media  screen and (min-width:768px) {
+
+   
+    .nftCard {
+        overflow: hidden;
+        background-color: hsl(216, 50%, 16%);
+        width: 300px;
+        height: 45vh;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        
+   }
+
+   .imgContent {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+
+
+   
+
+
+    .nftImg {
+        width: 380px;
+        border-radius: 5px;
+       
+    }
+}
+
+  
+
+.textContent {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+
+    margin-bottom: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px   ;
+
+    h3 {
+        font-weight: 600;
+        font-size: 33px;
+    }
+    p {
+        color:  hsl(215, 51%, 70%);
+        font-size: 22px;;
+    }
+
+    
+}
+.footerCard {
+    position: absolute;
+    bottom : 29%;
+    right: 8%;
+
+    .descFooter {
+        font-size: 18px;
+    }
+
+    
+} 
+}
+
+
+@media  screen and (min-width:1024px) {
+
+
+    .nftCard {
+        overflow: hidden;
+        background-color: hsl(216, 50%, 16%);
+        width: 50vw;
+        height: 80vh;
+        border-radius: 10px;
+        
+    }
+
+    .textContent {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+    
+        margin-bottom: 40px;
+        
+        display: flex;
+        flex-direction: column;
+        
+        width: 50%;
+        h3 {
+            font-weight: 600;
+            font-size: 40px;
+            
+        }
+        p {
+            color:  hsl(215, 51%, 70%);
+            font-size: 25px;
+           
+        }
+    }
+
+    .imgContent {
+
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px;
+        width: 50%;
+        height: 80vh;
+    
+    
+       
+    
+    
+        .nftImg {
+            width: 480px;
+            border-radius: 5px;
+           
+        }
+    }
+    
+
+
+
+    .footerCard {
+        position: absolute;
+        bottom : 12%;
+        right: 4%;
+
+        width: 470px;
+    
+        .descFooter {
+            font-size: 20px;
+        }
+    
+        
+    } 
+}
+
