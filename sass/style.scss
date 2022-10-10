@@ -272,6 +272,21 @@ main {
             font-size: 25px;
            
         }
+
+        .descContent {
+            display: flex;
+            justify-content:  space-evenly;
+            gap: 180px;
+
+            p {
+                display: flex;
+                gap: 20px;
+    
+               .iconp {
+                width: 20px;
+               } 
+            }  
+        }
     }
 
     .imgContent {
@@ -311,4 +326,64 @@ main {
         
     } 
 }
+
+@media  screen and (min-width:1280px) { 
+
+
+    .textContent {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+    
+        margin-bottom: 40px;
+        
+        display: flex;
+        flex-direction: column;
+        
+        width: 50%;
+        h3 {
+            font-weight: 600;
+            font-size: 50px;
+            
+        }
+        p {
+            color:  hsl(215, 51%, 70%);
+            font-size: 30px;
+           
+        }
+    }
+
+    .imgContent {
+
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px;
+        width: 50%;
+        height: 70vh;
+    
+    
+       
+    
+    
+        .nftImg {
+            width: 480px;
+            border-radius: 5px;
+           
+        }
+    }
+    .footerCard {
+        position: absolute;
+        bottom : 15%;
+        right: 6%;
+
+        width: 570px;
+    
+        .descFooter {
+            font-size: 20px;
+        }
+    
+        
+    } 
+}
+    
 
